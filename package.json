@@ -1,0 +1,33 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.4.7",
+    "fast-css-loader": "^1.0.2",
+    "fast-sass-loader": "^1.4.7",
+    "group-css-media-queries-loader": "^3.0.2",
+    "node-sass": "^4.13.1",
+    "postcss": "^8.3.3",
+    "postcss-loader": "^2.1.5",
+    "style-loader": "2.0.0",
+    "webpack": "4.28.4",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "popper.js": "^1.14.7",
+    "jquery": "^3.7.0",
+    "mini-css-extract-plugin": "^0.5.0"
+  }
+}
